@@ -1,0 +1,71 @@
+.youtubeVideo {
+  width: 100%;
+}
+.youtubeVideoViewsCon {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
+.commonYoutubeDetailed {
+  color: #616e7c;
+  margin: 0px;
+  font-size: 16px;
+}
+.viewsAndLikeCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commonCon {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.LikesCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+.youtubeChannelName {
+  color: #212121;
+  margin: 0px;
+}
+.subscriberContainer {
+  display: flex;
+}
+.subscriber {
+  color: #616e7c;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.subscriberDescription {
+  color: #616e7c;
+  margin-bottom: 10px;
+}
+.selected {
+  color: #4f46e5;
+  font-weight: bold;
+}
+.likebtnEdit {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.specificHeight {
+  height: 90vh;
+}
+@media (max-width: 560px) {
+  .commonYoutubeDetailed {
+    font-size: 12px;
+  }
+  .youtubeVideoViewsCon {
+    width: 140px;
+  }
+  .LikesCon {
+    width: 160px;
+  }
+}

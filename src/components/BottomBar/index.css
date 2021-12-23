@@ -1,0 +1,20 @@
+.bottomBarCon {
+  margin-top: 7px;
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottomBarIcon {
+  width: 30px;
+  height: 30px;
+}
+@media (min-width: 560px) {
+  .bottomBarCon {
+    display: none;
+  }
+}

@@ -1,0 +1,41 @@
+.gamingThumbnail {
+  height: 380px;
+  width: 280px;
+}
+.gamingCon {
+  width: 400px;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gamingTitle {
+  margin: 0px;
+  color: #181818;
+  font-size: 18px;
+  font-weight: 500;
+  width: 280px;
+  margin-top: 10px;
+}
+.gamingDescription {
+  color: #64748b;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.gamingLinkEdit {
+  text-decoration: none;
+}
+@media (max-width: 560px) {
+  .gamingThumbnail {
+    width: 100%;
+    height: 250px;
+  }
+  .gamingCon {
+    width: 320px;
+    height: 330px;
+  }
+}

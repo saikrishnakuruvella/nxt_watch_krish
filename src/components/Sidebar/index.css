@@ -1,0 +1,59 @@
+.sideBarCon {
+  width: 250px;
+  height: 88.5vh;
+
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.iconCon {
+  display: flex;
+  width: 250px;
+  height: 40px;
+
+  align-items: center;
+  justify-content: center;
+}
+.sidebarName {
+  margin: 0px;
+  font-size: 20px;
+  margin-left: 20px;
+  width: 150px;
+}
+.linkEdit {
+  text-decoration: none;
+}
+.imagesCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebookLogo {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+.bottomCon {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.contactUs {
+  color: #1e293b;
+  font-size: 17px;
+  font-weight: bold;
+}
+.contactUsDes {
+  color: #181818;
+  font-weight: 500;
+  font-size: 18px;
+  width: 220px;
+}
+@media (max-width: 560px) {
+  .sideBarCon {
+    display: none;
+  }
+}

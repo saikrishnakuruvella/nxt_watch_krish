@@ -1,0 +1,52 @@
+li {
+  list-style-type: none;
+}
+.thumbnailImage {
+  width: 389px;
+  height: 200px;
+}
+.videoProfileLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+.LinkoftumbnailCon {
+  text-decoration: none;
+
+  margin: 10px;
+}
+.thumbnailTextCont {
+  display: flex;
+}
+.thumbailTitle {
+  color: #1e293b;
+  margin: 0px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.thumbnailName {
+  color: #475569;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.datesCon {
+  display: flex;
+  width: 190px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.thumbnailContainer {
+  width: 389px;
+}
+@media (max-width: 560px) {
+  .thumbnailContainer {
+    width: 300px;
+  }
+  .thumbnailImage {
+    width: 300px;
+    height: 150px;
+  }
+}

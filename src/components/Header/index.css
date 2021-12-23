@@ -1,0 +1,65 @@
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #3b82f6;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  border: 2px solid #3b82f6;
+  background-color: transparent;
+
+  border-radius: 4px;
+  outline: none;
+}
+.modelCon {
+  width: 300px;
+  height: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  color: #3b82f6;
+}
+.confirmBnt {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+.navBarLogo {
+  width: 130px;
+  height: 40px;
+}
+.navBarProfile {
+  width: 40px;
+  height: 40px;
+}
+.logoutCon {
+  width: 180px;
+
+  height: 60px;
+  justify-content: space-between;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+}
+
+@media (max-width: 560px) {
+  .logoutCon {
+    width: 120px;
+  }
+  .navBarProfile {
+    width: 30px;
+    height: 30px;
+  }
+  .missedBtn {
+    display: none;
+  }
+  .trigger-button {
+    font-size: 13px;
+  }
+  .navBarLogo {
+    width: 100px;
+    height: 30px;
+  }
+}

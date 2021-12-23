@@ -1,0 +1,42 @@
+.loginImage {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.loginInputCon {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.showPassword {
+  margin-right: 5px;
+}
+.checkBoxCon {
+  width: 350px;
+  margin-top: 10px;
+}
+.loginBtn {
+  width: 350px;
+  height: 30px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 7px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.errorMsg {
+  color: red;
+}
+
+@media (max-width: 560px) {
+  .loginBtn {
+    width: 290px;
+    height: 28px;
+  }
+  .checkBoxCon {
+    width: 290px;
+  }
+}
